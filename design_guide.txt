@@ -1,0 +1,16 @@
+
+** Color
+Primary: #000
+Secondary: #fff
+
+
+* Font 
+** Logo:
+    -impact
+** Menu:
+    - family
+** size
+
+Header:
+Header 2:
+Paragraphs:
