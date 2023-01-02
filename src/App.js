@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faBars, faCircleXmark)
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import Home from "./components/Home";
+library.add(faBars, faCircleXmark);
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>
     </>
@@ -22,3 +22,6 @@ function App() {
 }
 
 export default App;
+// {
+//   /
+// }

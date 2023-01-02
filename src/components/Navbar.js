@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Navbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -10,9 +10,6 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  // const bars = <FontAwesomeIcon icon="fa-solid fa-bars" />
-  // const closeIcon = <FontAwesomeIcon icon="fa-solid fa-xmark" />
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -33,12 +30,12 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            { /* <img
+            {/* <img
               src="./images/white_icons8-lion-head-50.png"
               alt="lion head logo"
-            /> */ }
+            /> */}
             Zion Health and Wellness
-        </Link>
+          </Link>
           <div className="menu-icon" onClick={handleClick}>
             <FontAwesomeIcon icon="fa-solid fa-bars" />
           </div>
@@ -48,7 +45,7 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/services"
                 className="nav-links"
@@ -65,7 +62,7 @@ function Navbar() {
               >
                 Reviews
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

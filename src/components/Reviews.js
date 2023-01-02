@@ -1,0 +1,2 @@
+/* include the cards component for formatting but change to 
+include review stars and testimonials as well as the Thumbtack link */
