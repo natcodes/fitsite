@@ -34,6 +34,12 @@ h1 {
   border-radius: 10px;
 }
 
+.second_header {
+  margin-bottom: 12px;
+  font-family: Oswald;
+  font-weight: 500;
+}
+
 .about__cards__item__link {
   display: flex;
   flex-flow: column;

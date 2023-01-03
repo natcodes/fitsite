@@ -1,0 +1,139 @@
+.rev_container {
+  background: url("../../public/images/xan-griffin-eA2t5EvcxU4-unsplash.jpg")
+    center center/cover no-repeat;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  padding: 0 24px;
+}
+
+.rev_header {
+  color: #fff;
+  margin: 40px;
+}
+
+.client {
+  color: white;
+  /* margin-bottom: 20px; */
+}
+
+.review_txt {
+  color: white;
+  padding: 20px 30px;
+  font-size: 0.8em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.star_container {
+  margin-bottom: 20px;
+}
+
+.fa-star {
+  color: gold;
+}
+
+.fa-arrow-up-right-from-square {
+  padding-left: 10px;
+  color: white;
+}
+
+.read_reviews {
+  color: white;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+
+.rev__cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.rev__cards__items {
+  margin-bottom: 24px;
+}
+
+.rev__cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.rev__cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  /* height: 350px; */
+}
+
+.rev__cards__item__pic-wrap {
+  /* position: relative; */
+  width: 100%;
+  height: 200px;
+  padding-top: 10%;
+  overflow: hidden;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rev__cards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.rev__cards__title__label {
+  margin-bottom: 10px;
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.rev__cards__item__text {
+  color: #252e48;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .rev__content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .rev__cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .rev__cards__item {
+    margin-bottom: 2rem;
+  }
+
+  .rev_container {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .read_reviews {
+    padding-top: 4px;
+  }
+}

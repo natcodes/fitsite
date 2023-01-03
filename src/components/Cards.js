@@ -10,35 +10,37 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
+              src="images/karsten-winegeart-1-1.jpg"
               text="Get the push you need to reach your goals"
               label="1:1 FITNESS TRAINING"
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="images/victor-freitas-partner-sessions.jpg"
               text="Train with a buddy or partner"
-              label="1:2 Fitness Training"
+              label="1:2 FITNESS TRAINING"
               path="/services"
             />
             <CardItem
-              src="images/img-3.jpg"
+              src="images/gabin-vallet-group_sessions.jpg"
               text="Make your fitness journey a party"
-              label="Group Fitness Sessions"
+              label="GROUP FITNESS SESSIONS"
               path="/services"
             />
           </ul>
+          <h1 className="header">Nutrition Services</h1>
+
           <ul className="cards__items">
             <CardItem
-              src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              src="images/lily-banse-nutrition-plans.jpg"
+              text="Whether you are meal planning or cooking fresh, we can help"
+              label="NUTRITION PLANS"
               path="/products"
             />
             <CardItem
-              src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              src="images/tyler-nix-groceries.jpg"
+              text="Learn to make better food choices based on your goals and ailments"
+              label="NUTRITIONAL EDUCATION"
               path="/sign-up"
             />
           </ul>
