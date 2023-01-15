@@ -15,9 +15,9 @@ function Reviews() {
           <ReviewCardItem
             src="images/karsten-winegeart-1-1.jpg"
             client="Dianall G."
-            review="Great and easy to work with help me loose 40 lbs in 2 moths and I didn't have to do a ridiculous diet that's the best part affordable and all around a great experience"
+            review="Great and easy to work with help me loose 40 lbs in 2 moths and I didn't have to do a ridiculous diet that's the best part affordable and all around a great experience."
             text="Get the push you need to reach your goals"
-            label="1:1 FITNESS TRAINING"
+            label="What Dianall has to say:"
             path="/services"
           />
           <ReviewCardItem
@@ -25,7 +25,7 @@ function Reviews() {
             client="Sarah N."
             review="So happy to be working with Steve! He is professional, knowledgeable and a great motivator. Our workouts are tailored to my specific needs and never boring. Really appreciate the positivity and..."
             text="Train with a buddy or partner"
-            label="1:2 FITNESS TRAINING"
+            label="What Sarah has to say:"
             path="/services"
           />
           <ReviewCardItem
@@ -33,7 +33,7 @@ function Reviews() {
             client="Christa M."
             review="Steve is great!"
             text="Make your fitness journey a party"
-            label="GROUP FITNESS SESSIONS"
+            label="What Christa has to say:"
             path="/services"
           />
         </ul>

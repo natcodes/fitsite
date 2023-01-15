@@ -17,26 +17,15 @@ function ReviewCardItem(props) {
               <FontAwesomeIcon icon="fa-solid fa-star" />
             </div>
             <div className="client">{props.client}</div>
-            <div className="review_txt">{props.review}</div>
           </div>
           <div className="rev__cards__item__info">
             <h3 className="rev__cards__title__label"> {props.label} </h3>
-            <h5 className="rev__cards__item__text">{props.text}</h5>
+            <h5 className="rev__cards__item__text">{props.review}</h5>
           </div>
         </div>
-        {/* </Link> */}
       </li>
     </>
   );
 }
 
 export default ReviewCardItem;
-
-{
-  /* 
-<FontAwesomeIcon icon="fa-thin fa-star-sharp" />
-<FontAwesomeIcon icon="fa-thin fa-star-sharp" />
-<FontAwesomeIcon icon="fa-thin fa-star-sharp" />
-<FontAwesomeIcon icon="fa-thin fa-star-sharp" />
-<FontAwesomeIcon icon="fa-thin fa-star-sharp" /> */
-}
