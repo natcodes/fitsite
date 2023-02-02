@@ -36,7 +36,7 @@ function Reviews() {
         </ul>
       </div>
       <div className="read_reviews" href="shorturl.at/di279">
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noreferrer">
           <div className="read_reviews">
             Read all reviews
             <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
