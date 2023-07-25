@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { Button } from "./Button";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -41,24 +41,40 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="services"
                 className="nav-links"
                 onClick={closeMobileMenu}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
               >
                 Services
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/reviews"
+                to="reviews"
                 className="nav-links"
                 onClick={closeMobileMenu}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
               >
                 Reviews
               </Link>

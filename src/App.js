@@ -18,15 +18,10 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-        </Routes>
+        <Home />
       </Router>
     </>
   );
 }
 
 export default App;
-// {
-//   /
-// }
